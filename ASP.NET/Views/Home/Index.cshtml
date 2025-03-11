@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    bool isRegisteredStudent = TempData["isRegisteredStudent"] as bool? ?? false;
+    bool isRegisteredApplication = TempData["isRegisteredApplication"] as bool? ?? false;
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form asp-action="RedirectToFormOptions" method="post">
+        <button type="submit" class="btn btn-primary">Register highschool application</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function() {
+            var isRegisteredStudent = '@isRegisteredStudent';
+            var isRegisteredApplication = '@isRegisteredApplication';
+
+            if (isRegisteredStudent === 'True') {
+                alert("Student registered successfully!");
+            }
+            if (isRegisteredApplication === 'True') {
+                alert("Application registered successfully!");
+            }
+        });
+    </script>
+}
+

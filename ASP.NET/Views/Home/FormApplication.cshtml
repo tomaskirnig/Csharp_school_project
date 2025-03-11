@@ -1,0 +1,96 @@
+﻿@model ASP.NET.Models.FormApplicationModel
+@{
+    ViewData["Title"] = "Application creation";
+    var Highschools = ViewData["Highschools"] as IEnumerable<dynamic>;         
+    var Specializations = ViewData["Specializations"] as IEnumerable<dynamic>;
+    var Students = ViewData["Students"] as IEnumerable<dynamic>;
+}
+
+<h1>Application creation</h1>
+
+<form asp-action="RegisterApplication">
+    <div>
+        <label asp-for="Id_School" class="control-label">School</label>
+        <select asp-for="Id_School" class="form-control" id="school">
+            <option value="">Select School</option>
+            @foreach (var school in Highschools)
+            {
+                <option value="@school.Id_School">@school.Name</option>
+            }
+        </select>
+        <span asp-validation-for="Id_School" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Id_Student" class="control-label">Student</label>
+        <select asp-for="Id_Student" class="form-control" id="student">
+            <option value="">Select Student</option>
+            @foreach (var student in Students)
+            {
+                <option value="@student.Id_Student">@student.First_Name @student.Last_Name</option>
+            }
+        </select>
+        <span asp-validation-for="Id_Student" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Id_Specialization_1" class="control-label">Specialization 1</label>
+        <select asp-for="Id_Specialization_1" class="form-control" id="specialization1">
+            <option value="">Select Specialization</option>
+        </select>
+        <span asp-validation-for="Id_Specialization_1" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Id_Specialization_2" class="control-label">Specialization 2</label>
+        <select asp-for="Id_Specialization_2" class="form-control" id="specialization2">
+            <option value="-1">Select Specialization</option>
+        </select>
+        <span asp-validation-for="Id_Specialization_2" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Id_Specialization_3" class="control-label">Specialization 3</label>
+        <select asp-for="Id_Specialization_3" class="form-control" id="specialization3">
+            <option value="-1">Select Specialization</option>
+        </select>
+        <span asp-validation-for="Id_Specialization_3" class="text-danger"></span>
+    </div>
+    <div>
+        <input type="hidden" asp-for="DateOfCreation" id="DateOfCreation" />
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Register</button>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        var currentDate = new Date().toISOString().substring(0, 10);
+        $("#DateOfCreation").val(currentDate);
+
+        $(document).ready(function () {
+            $("#school").change(function () {
+                var schoolId = $(this).val();
+                if (schoolId) {
+                    $.ajax({
+                        url: '@Url.Action("GetSpecializations", "Home")',
+                        dataType: "json",
+                        data: { schoolId: schoolId },
+                        success: function (data) {
+                            $("#specialization1").empty().append('<option value="">Select Specialization</option>');
+                            $("#specialization2, #specialization3").empty().append('<option value="-1">Select Specialization</option>');
+                            $.each(data, function (index, item) {
+                                $("#specialization1").append(new Option(item.label, item.id));
+                                $("#specialization2").append(new Option(item.label, item.id));
+                                $("#specialization3").append(new Option(item.label, item.id));
+                            });
+                        }
+                    });
+                } else {
+                    $("#specialization1").empty().append('<option value="">Select Specialization</option>');
+                    $("#specialization2, #specialization3").empty().append('<option value="-1">Select Specialization</option>');
+                }
+            });
+        });
+    </script>
+}

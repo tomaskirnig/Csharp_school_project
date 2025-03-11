@@ -1,0 +1,51 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+Table Highschool {
+  id_school integer [primary key]
+  name varchar
+  address varchar 
+  phone_number integer
+  email varchar
+  city varchar
+}
+
+Table Specialization {
+  id_specialization integer [primary key]
+  id_school integer [not null]
+  name varchar
+  description varchar
+  number_of_available_positions integer
+  duration_of_specialization integer //doba pro absolvovani oboru(roky)
+  language varchar
+  form_of_study varchar //denni, kombinovane
+}
+
+Table Student {
+  id_student integer [primary key]
+  first_name varchar
+  last_name varchar
+  personal_identification_number varchar
+  birth_place varchar
+  birth_date date
+  address varchar
+}
+
+Table Applications{
+  id_applications integer [primary key]
+  id_school integer [not null]
+  id_specialization_1 integer [not null]
+  id_specialization_2 integer 
+  id_specialization_3 integer 
+  id_student integer [not null]
+
+}
+ Ref: Specialization.id_school > Highschool.id_school // many-to-one
+
+ Ref: Student.id_student - Applications.id_student
+
+ Ref: Highschool.id_school < Applications.id_school
+ 
+ Ref: Specialization.id_specialization < Applications.id_specialization_1
+ Ref: Specialization.id_specialization < Applications.id_specialization_2
+ Ref: Specialization.id_specialization < Applications.id_specialization_3

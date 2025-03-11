@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Applications List";
+    var listOfApplications = ViewData["Applications"] as IEnumerable<dynamic>;
+    var listOfStudents = ViewData["Students"] as IEnumerable<dynamic>;
+    var listOfHighschools = ViewData["Highschools"] as IEnumerable<dynamic>;
+    var listOfSpecializations = ViewData["Specializations"] as IEnumerable<dynamic>;
+
+    Func<int, string> getSchoolName = Id_School => listOfHighschools.FirstOrDefault(h => h.Id_School == Id_School)?.Name ?? "Unknown";
+    Func<int, string> getSpecializationName = Id_Specialization => listOfSpecializations.FirstOrDefault(s => s.Id_Specialization == Id_Specialization)?.Name ?? "None";
+    Func<int, string> getStudentName = Id_Student =>
+    {
+        var student = listOfStudents.FirstOrDefault(s => s.Id_Student == Id_Student);
+        return student != null ? $"{student.First_Name} {student.Last_Name}" : "Unknown";
+    };
+}
+
+<h1>Applications List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            @* <th>Id</th> *@
+            <th>School</th>
+            <th>Specialization 1</th>
+            <th>Specialization 2</th>
+            <th>Specialization 3</th>
+            <th>Student</th>
+            <th>Date of Creation</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var application in listOfApplications)
+        {
+            <tr>
+                @* <td>@application.Id_Applications</td> *@
+                <td>@getSchoolName(application.Id_School)</td>
+                <td>@getSpecializationName(application.Id_Specialization_1)</td>
+                <td>@getSpecializationName(application.Id_Specialization_2)</td>
+                <td>@getSpecializationName(application.Id_Specialization_3)</td>
+                <td>@getStudentName(application.Id_Student)</td>
+                <td>@application.DateOfCreation</td>
+            </tr>
+        }
+    </tbody>
+</table>

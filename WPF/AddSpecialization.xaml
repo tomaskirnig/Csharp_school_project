@@ -1,0 +1,49 @@
+﻿<Window x:Class="WPF.AddSpecialization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="AddSpecialization" Height="450" Width="800">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center" ShowGridLines="False" Width="800" Height="450">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Highschool" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="cbmHighschool" Margin="30,20,55,15"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Name" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtName" Margin="30,20,55,15"/>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Description" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtDescription" Margin="30,20,55,15"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Number of available positions" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtNumber_Of_Available_Positions" Margin="30,20,55,15"/>
+
+        <Label Grid.Row="4" Grid.Column="0" Content="Duration of specialization" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="4" Grid.Column="1" x:Name="txtDuration_Of_Specialization" Margin="30,20,55,15"/>
+
+        <Label Grid.Row="5" Grid.Column="0" Content="Language" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="5" Grid.Column="1" x:Name="txtLanguage" Margin="30,20,55,15"/>
+
+        <Label Grid.Row="6" Grid.Column="0" Content="Form of study" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="6" Grid.Column="1" x:Name="txtForm_Of_Study" Margin="30,20,55,15"/>
+        
+        <Button Grid.Row="7" Grid.Column="0" Content="Add" Click="Add_Button_Click" Margin="155,15,155,20"/>
+        <Button Grid.Row="7" Grid.Column="1" Content="Cancel" Click="Cancel_Button_Click" Margin="155,15,155,20"/>
+    </Grid>
+</Window>

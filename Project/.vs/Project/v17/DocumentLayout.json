@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomki\\VS\\C# II\\Project\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E9246-2426-4D9B-A572-E1D3784C688F}|Project.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\project\\data\\orm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7E9246-2426-4D9B-A572-E1D3784C688F}|Project.csproj|solutionrelative:data\\orm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E9246-2426-4D9B-A572-E1D3784C688F}|Project.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\project\\data\\reflectionloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7E9246-2426-4D9B-A572-E1D3784C688F}|Project.csproj|solutionrelative:data\\reflectionloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F5C9D3-C4B9-4680-923E-03A47B38932E}|..\\ASP.NET\\ASP.NET.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\asp.net\\models\\formapplicationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0734AA38-30F4-4D63-B355-111F11622075}|..\\WPF\\WPF.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\wpf\\editdeleteapplication.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F5C9D3-C4B9-4680-923E-03A47B38932E}|..\\ASP.NET\\ASP.NET.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\asp.net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F5C9D3-C4B9-4680-923E-03A47B38932E}|..\\ASP.NET\\ASP.NET.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\asp.net\\views\\home\\redirecttoformoptions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7E9246-2426-4D9B-A572-E1D3784C688F}|Project.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7E9246-2426-4D9B-A572-E1D3784C688F}|Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0734AA38-30F4-4D63-B355-111F11622075}|..\\WPF\\WPF.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\wpf\\addapplication.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F5C9D3-C4B9-4680-923E-03A47B38932E}|..\\ASP.NET\\ASP.NET.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\asp.net\\views\\home\\viewapplications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F5C9D3-C4B9-4680-923E-03A47B38932E}|..\\ASP.NET\\ASP.NET.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\asp.net\\models\\formstudentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F5C9D3-C4B9-4680-923E-03A47B38932E}|..\\ASP.NET\\ASP.NET.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\asp.net\\views\\home\\formapplication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F5C9D3-C4B9-4680-923E-03A47B38932E}|..\\ASP.NET\\ASP.NET.csproj|c:\\users\\tomki\\vs\\c# ii\\project\\asp.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 2903,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RedirectToFormOptions.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\RedirectToFormOptions.cshtml",
+              "RelativeDocumentMoniker": "..\\ASP.NET\\Views\\Home\\RedirectToFormOptions.cshtml",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\RedirectToFormOptions.cshtml",
+              "RelativeToolTip": "..\\ASP.NET\\Views\\Home\\RedirectToFormOptions.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T10:44:44.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddApplication.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\WPF\\AddApplication.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WPF\\AddApplication.xaml.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\WPF\\AddApplication.xaml.cs",
+              "RelativeToolTip": "..\\WPF\\AddApplication.xaml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T05:17:26.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditDeleteApplication.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\WPF\\EditDeleteApplication.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WPF\\EditDeleteApplication.xaml.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\WPF\\EditDeleteApplication.xaml.cs",
+              "RelativeToolTip": "..\\WPF\\EditDeleteApplication.xaml.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAswGkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T05:17:00.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewApplications.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\ViewApplications.cshtml",
+              "RelativeDocumentMoniker": "..\\ASP.NET\\Views\\Home\\ViewApplications.cshtml",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\ViewApplications.cshtml",
+              "RelativeToolTip": "..\\ASP.NET\\Views\\Home\\ViewApplications.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T05:13:36.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormApplicationModel.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Models\\FormApplicationModel.cs",
+              "RelativeDocumentMoniker": "..\\ASP.NET\\Models\\FormApplicationModel.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Models\\FormApplicationModel.cs",
+              "RelativeToolTip": "..\\ASP.NET\\Models\\FormApplicationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:55:19.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:51:26.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormApplication.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\FormApplication.cshtml",
+              "RelativeDocumentMoniker": "..\\ASP.NET\\Views\\Home\\FormApplication.cshtml",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\FormApplication.cshtml",
+              "RelativeToolTip": "..\\ASP.NET\\Views\\Home\\FormApplication.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T10:05:27.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\ASP.NET\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\ASP.NET\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T09:42:48.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormStudentModel.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Models\\FormStudentModel.cs",
+              "RelativeDocumentMoniker": "..\\ASP.NET\\Models\\FormStudentModel.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Models\\FormStudentModel.cs",
+              "RelativeToolTip": "..\\ASP.NET\\Models\\FormStudentModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:20:57.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\ASP.NET\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\ASP.NET\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\ASP.NET\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAIA1wDQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:20:53.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReflectionLoader.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\Project\\Data\\ReflectionLoader.cs",
+              "RelativeDocumentMoniker": "Data\\ReflectionLoader.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\Project\\Data\\ReflectionLoader.cs",
+              "RelativeToolTip": "Data\\ReflectionLoader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:43:03.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ORM.cs",
+              "DocumentMoniker": "C:\\Users\\tomki\\VS\\C# II\\Project\\Project\\Data\\ORM.cs",
+              "RelativeDocumentMoniker": "Data\\ORM.cs",
+              "ToolTip": "C:\\Users\\tomki\\VS\\C# II\\Project\\Project\\Data\\ORM.cs",
+              "RelativeToolTip": "Data\\ORM.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwBgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:01:53.087Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 2589,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
